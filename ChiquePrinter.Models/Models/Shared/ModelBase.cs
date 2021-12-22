@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChiquePrinter.Models
+namespace ChiquePrinter.Domain.Models.Shared
 {
    public class ModelBase
     {

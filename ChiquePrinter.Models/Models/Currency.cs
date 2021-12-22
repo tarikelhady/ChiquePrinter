@@ -1,13 +1,14 @@
-﻿using System;
+﻿using ChiquePrinter.Domain.Models.Shared;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChiquePrinter.Models
+namespace ChiquePrinter.Domain.Models
 {
-    public class ChiqueAddress : ModelBase
+   public class Currency : ModelBase
     {
         [Required]
         [StringLength(50)]

@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using ChiquePrinter.Domain.Models.Shared;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace ChiquePrinter.Models
+namespace ChiquePrinter.Domain.Models
 {
     public class BankBook : ModelBase
     {

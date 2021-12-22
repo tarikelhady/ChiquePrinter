@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiquePrinter.Models", "ChiquePrinter.Models\ChiquePrinter.Models.csproj", "{55E8CC27-86A5-4736-A96D-5832DF793DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiquePrinter.Domain", "ChiquePrinter.Models\ChiquePrinter.Domain.csproj", "{55E8CC27-86A5-4736-A96D-5832DF793DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiquePrinter.Wpf", "ChiquePrinter.Wpf\ChiquePrinter.Wpf.csproj", "{C85AF293-5447-476A-8B21-E4E5AC05D6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiquePrinter.Wpf", "ChiquePrinter.Wpf\ChiquePrinter.Wpf.csproj", "{C85AF293-5447-476A-8B21-E4E5AC05D6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiquePrinter.Infrastructure", "ChiquePrinter.Infrastructure\ChiquePrinter.Infrastructure.csproj", "{80F7485B-8131-4D1C-AD5C-640A05584332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C85AF293-5447-476A-8B21-E4E5AC05D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85AF293-5447-476A-8B21-E4E5AC05D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85AF293-5447-476A-8B21-E4E5AC05D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F7485B-8131-4D1C-AD5C-640A05584332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F7485B-8131-4D1C-AD5C-640A05584332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F7485B-8131-4D1C-AD5C-640A05584332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F7485B-8131-4D1C-AD5C-640A05584332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
