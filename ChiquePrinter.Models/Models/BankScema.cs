@@ -14,6 +14,7 @@ namespace ChiquePrinter.Domain.Models
         public string Discription { get; set; }
         [Required]
         public Bank Bank { get; set; }
+        public Guid BankId { get; set; }
         [Required]
         public int Height { get; set; }
         [Required]

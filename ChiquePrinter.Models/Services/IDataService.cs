@@ -10,8 +10,8 @@ namespace ChiquePrinter.Domain.Services
     {
         Task<IEnumerable<T>> GetAll();
         Task<T> Get (Guid id);
-        Task<T> Update(T entity);
-        Task<T> Create(Guid id,T entity);
+        Task<T> Create(T entity);
+        Task<T> Update(Guid id,T entity);
         Task<bool> Delete(Guid id);
 
     }

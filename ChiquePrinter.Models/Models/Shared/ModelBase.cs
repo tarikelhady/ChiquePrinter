@@ -13,8 +13,10 @@ namespace ChiquePrinter.Domain.Models.Shared
         [Required]
         public int No { get; set; }
         public User CreateBy { get; set; }
+        public Guid CreateById { get; set; }
         public DateTime CreateDate { get; set; }
-        public User ModifyBy { get; set; }
+        //public User ModifyBy { get; set; }
+        //public Guid ModifyById { get; set; }
         public DateTime ModifyDate { get; set; }
     }
 }

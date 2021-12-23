@@ -28,7 +28,7 @@ namespace ChiquePrinter.Domain.Models
         public DateTime WrittenDate { get; set; }   // تاريخ التحرير
         public DateTime MatuityDate { get; set; }   // تاريخ الاستحقاق
         [Required]
-        public Decimal Amount { get; set; }
+        public double Amount { get; set; }
         [Required]
         public Currency Currency { get; set; }
         public ICollection<UserLog> UserLogs { get; set; }

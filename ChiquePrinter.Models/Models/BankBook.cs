@@ -8,13 +8,14 @@ namespace ChiquePrinter.Domain.Models
     {
         [Required]
         [StringLength(50)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Required]
         public int StartChiqueNo { get; set; }
         [Required]
         public int EndChiqueNo { get; set; }
         [Required]
-        public Bank Bank { get; set; }
-        public ICollection<Chique> Chiques { get; set; }
+        public Bank? Bank { get; set; }
+        public Guid BankId { get; set; }
+        public ICollection<Chique>? Chiques { get; set; }
     }
 }
