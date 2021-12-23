@@ -5,6 +5,17 @@ using ChiquePrinter.Infrastructure.Services;
 
 DbContextFactory dbContextFactory = new DbContextFactory();
 IDataService<User> UserDataService = new GenericDataService<User>(dbContextFactory);
-Console.WriteLine(UserDataService.Get(new Guid("112c8dd8-346b-426e-b06c-75bba97dcd63")).Result);
+
+//UserDataService.Create(new User
+//{
+//    Name = "LOGY",
+//    Password = "123456",
+//    No = 2,
+//    CreateById = new Guid("112C8DD8-346B-426E-B06C-75BBA97DCD63"),
+//    CreateDate = DateTime.Now,
+//    ModifyDate = DateTime.Now
+//});
+UserDataService.GetAll().Result.ToList<User>().ForEach((user) => Console.WriteLine($"No : {user.No.ToString()} , Name { user.Name }"));
+//Console.WriteLine(UserDataService.Get(2).Result.Name);
 Console.ReadLine();
 

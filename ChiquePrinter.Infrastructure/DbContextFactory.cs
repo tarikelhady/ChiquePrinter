@@ -12,6 +12,7 @@ namespace ChiquePrinter.Infrastructure
 
         public DbContextFactory()
         {
+
         }
 
         public DbContextFactory(Action<DbContextOptionsBuilder> configureDbContext)

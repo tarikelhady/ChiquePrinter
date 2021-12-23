@@ -41,6 +41,15 @@ namespace ChiquePrinter.Infrastructure.Services
             }
         }
 
+        public async Task<T> Get(int no)
+        {
+            using (ChiquePrinterDbContext context = _contextFactory.CreateDbContext())
+            {
+                T entity = await context.Set<T>().FirstOrDefaultAsync((e) => e.No == no);
+                return entity;
+            }
+        }
+
         public async Task<IEnumerable<T>> GetAll()
         {
             using (ChiquePrinterDbContext context = _contextFactory.CreateDbContext())
