@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiquePrinter.Domain", "Chi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiquePrinter.Wpf", "ChiquePrinter.Wpf\ChiquePrinter.Wpf.csproj", "{C85AF293-5447-476A-8B21-E4E5AC05D6F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiquePrinter.Infrastructure", "ChiquePrinter.Infrastructure\ChiquePrinter.Infrastructure.csproj", "{80F7485B-8131-4D1C-AD5C-640A05584332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiquePrinter.Infrastructure", "ChiquePrinter.Infrastructure\ChiquePrinter.Infrastructure.csproj", "{80F7485B-8131-4D1C-AD5C-640A05584332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
