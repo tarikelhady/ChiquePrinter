@@ -21,12 +21,6 @@ namespace ChiquePrinter.Infrastructure
         public DbSet<User> Users { get; set; }
         public DbSet<UserLog> UserLogs { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            string qonstr = "Data Source=(localdb)\\ProjectModels;Initial Catalog=ChiquePrinterDB;Integrated Security=True;Connect Timeout=30;";
-            optionsBuilder.UseSqlServer(qonstr);
-            base.OnConfiguring(optionsBuilder);
-        }
         public ChiquePrinterDbContext(DbContextOptions options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

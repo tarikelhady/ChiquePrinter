@@ -13,6 +13,8 @@ namespace ChiquePrinter.Domain.Models
         [Required]
         [StringLength(50)]
         public string Name { get; set; }
+        public string Email { get; set; }
+        public string Username { get; set; }
         public string Password { get; set; }
         public ICollection<UserLog> UserLogs { get; set; }
 
